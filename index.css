@@ -109,7 +109,7 @@ section{
 .content{
     margin: 0;
     padding:0;
-    width: 30%;
+    border-bottom: 1px white solid;
 }
 .content ul li{
     list-style: none;
@@ -122,7 +122,7 @@ section{
     align-items: center;
     margin: 10px;
     width:100%;
-    transition: .4s all ease-in-out;
+    transition: .3s all ease-in-out;
     border-radius: 10px;
 }
 .content button img{
@@ -132,6 +132,18 @@ section{
 }
 .content button:hover{
     background-color: rgb(69,69,70);
+}
+.short{
+    border-top: 1px solid white;
+    color: rgb(176,179,184);
+}
+.short h2{
+    margin: 30px;
+    line-height: 5px;
+}
+.short button{
+    display: flex;
+    align-items: center;
 }
 .info{
     width: 40%;
@@ -347,5 +359,57 @@ section{
     background-color: rgb(58,59,60);
 }   
 .post .frist-post footer button svg{
+    margin: 10px;
+}
+.left{
+    color: rgb(176,179,184);
+}
+.sponser button{
+    display: flex;
+    align-items: center;
+    background-color: #18191a;
+    border: 1px solid #18191a;
+    margin: 20px;
+    color: white;
+    transition: .3s all ease-in-out;
+}
+
+.sponser button img{
+    width: 200px;
+}
+.Contacts{
+    border-top: 1px solid ;
+}
+.Contacts button{
+    display: flex;
+    align-items: center;
+    background-color: #18191a;
+    border: 1px solid #18191a;
+    margin: 10px;
+    color: white;
+    transition: .3s all ease-in-out;    
+    width: 90%;
+    border-radius: 20px;
+
+}
+.Contacts button:hover{
+    background-color: rgb(58,59,60);
+}
+.Group button{
+    display: flex;
+    align-items: center;
+    background-color: #18191a;
+    border: 1px solid #18191a;
+    margin: 10px;
+    color: white;
+    transition: .3s all ease-in-out;    
+    width: 90%;
+    border-radius: 20px;   
+}
+.Group button:hover{
+    background-color: rgb(58,59,60);
+
+}
+.Group img{
     margin: 10px;
 }
